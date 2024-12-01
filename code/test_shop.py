@@ -1,11 +1,11 @@
 from unittest import TestCase
 from selenium import webdriver
 
-from automation.menu import Menu
-from automation.page_category import Category
-from automation.page_product import Product
-from automation.page_cart import Cart
-from automation.page_checkout import Checkout
+from code.menu import Menu
+from code.page_category import Category
+from code.page_product import Product
+from code.page_cart import Cart
+from code.page_checkout import (Checkout)
 
 
 class TestShop(TestCase):
